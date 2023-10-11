@@ -11,6 +11,6 @@ for i in range(2,X+1):
         dp[i] = min(dp[i - 1] + 1, dp[int(i/3)] + 1)
     else:
         dp[i] = dp[i-1] + 1
-print(dp)
-print([i for i in range(X+1)])
+# print(dp)
+# print([i for i in range(X+1)])
 print(dp[-1])
